@@ -18,15 +18,15 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ServiceCard
           service-name="Cabelo César"
-          image-src="/images/Cabelo-Cesar-compactado.jpg"
+          image-src="/images/corte_cezar.jpg"
           price="45"
           description="Corte clássico e elegante, ideal para um visual sofisticado e atemporal."
           @service-click="handleServiceClick"
         />
         
         <ServiceCard
-          service-name="Cabelo Militar"
-          image-src="/images/Cabelo-Militar-compactado.jpg"
+          service-name="Cabelo Buzz Cut"
+          image-src="/images/buzz_cut.jpg"
           price="40"
           description="Corte militar preciso e prático, perfeito para um visual limpo e organizado."
           @service-click="handleServiceClick"
@@ -34,7 +34,7 @@
         
         <ServiceCard
           service-name="Cabelo Pompadour"
-          image-src="/images/Cabelo-Pompadour-compactado.jpg"
+          image-src="/images/pompadour.jpg"
           price="55"
           description="Corte clássico com volume no topo, ideal para um estilo vintage e elegante."
           @service-click="handleServiceClick"
@@ -42,7 +42,7 @@
         
         <ServiceCard
           service-name="Cabelo Degradê"
-          image-src="/images/Cabelo_Degrade_compactado (1).jpg"
+          image-src="/images/degrade.jpg"
           price="50"
           description="Corte moderno com transição suave, perfeito para um look contemporâneo."
           @service-click="handleServiceClick"
@@ -53,6 +53,14 @@
           image-src="/images/texturizado.jpg"
           price="48"
           description="Corte moderno com textura e movimento, ideal para um visual despojado."
+          @service-click="handleServiceClick"
+        />
+        
+        <ServiceCard
+          service-name="Cabelo Undercut"
+          image-src="/images/undercut.jpg"
+          price="52"
+          description="Corte moderno com laterais raspadas, ideal para um visual arrojado e contemporâneo."
           @service-click="handleServiceClick"
         />
       </div>
@@ -96,7 +104,7 @@ const handleAgendarClick = () => {
 }
 
 const handleContatoClick = () => {
-  console.log('Falar conosco clicked')
-  // Aqui será implementada a lógica de contato
+  // Fazer ligação para o telefone da barbearia
+  window.location.href = 'tel:+5511976048556'
 }
 </script>

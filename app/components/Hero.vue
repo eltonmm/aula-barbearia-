@@ -1,5 +1,5 @@
 <template>
-  <section class="h-screen bg-gradient-to-br from-primary-50 via-background-secondary to-gold-50 relative overflow-hidden">
+  <section class="h-screen bg-gradient-to-br from-primary-50 via-background-secondary to-gold-50 relative overflow-hidden pt-16">
     <!-- Background Pattern -->
     <div class="absolute inset-0 bg-gradient-to-r from-primary-900/10 via-transparent to-gold-900/10"></div>
     

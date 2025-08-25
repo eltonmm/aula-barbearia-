@@ -1,30 +1,30 @@
 <template>
-  <section class="py-20 bg-background-primary">
+  <section class="py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         
         <!-- Left Side - Text Content -->
         <div class="space-y-8">
           <div class="space-y-6">
-            <h2 class="text-4xl lg:text-5xl font-extrabold text-text-primary font-display leading-tight">
+            <h2 class="text-4xl lg:text-5xl font-extrabold text-white font-display leading-tight">
               Sobre 
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-gold-600">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-gold-400">
                 Nós
               </span>
             </h2>
             
-            <p class="text-xl text-text-secondary font-body leading-relaxed">
+            <p class="text-xl text-gray-300 font-body leading-relaxed">
               Há mais de uma década transformando o cuidado masculino em arte, nossa barbearia é referência em qualidade e tradição.
             </p>
           </div>
           
           <div class="space-y-6">
-            <p class="text-lg text-text-muted font-body leading-relaxed">
+            <p class="text-lg text-gray-400 font-body leading-relaxed">
               Fundada com a paixão pela excelência, combinamos técnicas clássicas da barbearia tradicional com as tendências mais modernas do mercado. Cada cliente recebe um atendimento personalizado, onde cada detalhe é pensado para proporcionar uma experiência única e memorável.
             </p>
             
-            <p class="text-lg text-text-muted font-body leading-relaxed">
-              Nossa equipe é formada por profissionais altamente qualificados, sempre em constante aprendizado para oferecer os melhores serviços. Utilizamos apenas produtos premium e equipamentos de última geração para garantir resultados impecáveis.
+            <p class="text-lg text-gray-400 font-body leading-relaxed">
+              Nossa equipe de profissionais altamente qualificados está sempre em busca da perfeição, utilizando apenas produtos premium e equipamentos de última geração para garantir resultados impecáveis.
             </p>
           </div>
 
@@ -37,8 +37,8 @@
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-text-primary font-body">+10 Anos</h4>
-                <p class="text-sm text-text-muted font-body">de experiência</p>
+                <h4 class="font-semibold text-white font-body">+10 Anos</h4>
+                <p class="text-sm text-gray-400 font-body">de experiência</p>
               </div>
             </div>
             
@@ -49,8 +49,8 @@
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-text-primary font-body">+500 Clientes</h4>
-                <p class="text-sm text-text-muted font-body">satisfeitos</p>
+                <h4 class="font-semibold text-white font-body">+500 Clientes</h4>
+                <p class="text-sm text-gray-400 font-body">satisfeitos</p>
               </div>
             </div>
             
@@ -61,8 +61,8 @@
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-text-primary font-body">5.0 Estrelas</h4>
-                <p class="text-sm text-text-muted font-body">avaliação média</p>
+                <h4 class="font-semibold text-white font-body">5.0 Estrelas</h4>
+                <p class="text-sm text-gray-400 font-body">avaliação média</p>
               </div>
             </div>
             
@@ -73,8 +73,8 @@
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-text-primary font-body">Produtos Premium</h4>
-                <p class="text-sm text-text-muted font-body">qualidade garantida</p>
+                <h4 class="font-semibold text-white font-body">Produtos Premium</h4>
+                <p class="text-sm text-gray-400 font-body">qualidade garantida</p>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
             <!-- Entrance Image -->
             <div class="aspect-[3/4] overflow-hidden">
               <img 
-                src="/images/Entrada_da_Barbearia_compactada.jpg" 
+                src="/images/frente.jpg" 
                 alt="Entrada da barbearia - ambiente acolhedor e profissional"
                 class="w-full h-full object-cover"
               />

@@ -70,7 +70,7 @@
                 </div>
                 <div>
                   <h4 class="font-semibold text-text-primary font-body">Email</h4>
-                  <p class="text-text-muted font-body">contato@barbearia.com<br>agendamento@barbearia.com</p>
+                  <p class="text-text-muted font-body">termil@termil.com.br<br>agendamento@barbearia.com</p>
                 </div>
               </div>
             </div>
